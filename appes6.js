@@ -21,7 +21,7 @@ class UI {
     list.appendChild(row);
     // Event Listener - Delete
     document.querySelector(".delete").addEventListener("click", function(e) {
-      console.log(e);
+      //   console.log(e);
       //   Instantiate UI
       const ui = new UI();
       ui.deleteBook(e.target);
